@@ -1,0 +1,63 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+
+# ------------------------
+# Jupyter
+# ------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ------------------------
+# MLflow
+# ------------------------
+mlruns/
+
+# ------------------------
+# Données lourdes / brutes
+# ------------------------
+data/raw/
+data/application_*.csv
+data/bureau*.csv
+data/installments_payments.csv
+data/POS_CASH_balance.csv
+data/credit_card_balance.csv
+data/processed/X_train_proc.csv
+data/processed/X_test_proc.csv
+data/processed/y_train.csv
+data/processed/five_clients.csv
+data/processed/top_features.csv
+
+# ------------------------
+# Modèles
+# ------------------------
+models/*.joblib
+models/*.pkl
+
+# ------------------------
+# IDEs
+# ------------------------
+.vscode/
+.idea/
+
+# ------------------------
+# Logs / outputs
+# ------------------------
+*.log
+*.out
+*.tmp
+
+# ------------------------
+# Système
+# ------------------------
+.DS_Store
+Thumbs.db
