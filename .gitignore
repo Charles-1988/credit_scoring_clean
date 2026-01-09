@@ -34,8 +34,7 @@ data/credit_card_balance.csv
 data/processed/X_train_proc.csv
 data/processed/X_test_proc.csv
 data/processed/y_train.csv
-data/processed/five_clients.csv
-data/processed/top_features.csv
+
 
 # ------------------------
 # Modèles
