@@ -41,7 +41,6 @@ data/processed/top_features.csv
 # Modèles
 # ------------------------
 models/*.joblib
-models/*.pkl
 
 # ------------------------
 # IDEs
